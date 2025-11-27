@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   runAuto() {
-    return this.appService.runAuto();
+    return this.appService.runAuto('0389718044', 'Phongml123*');
   }
 }
